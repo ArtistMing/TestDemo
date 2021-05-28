@@ -1,0 +1,9 @@
+name=input("请输入用户姓名：")
+age=input("请输入用户年龄：")
+sex=input("请输入用户性别：")
+a={
+    "name":name,
+    "age":age,
+    "sex":sex
+}
+print("你的用户信息为：姓名："+a["name"]+"年龄："+a["age"]+"性别："+a["sex"])
